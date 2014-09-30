@@ -1,0 +1,84 @@
+.wrapper {
+	max-width: 600px;
+	margin: 0 auto;
+}
+.section-h {
+	font: 700 .813em Arial,Helvetica,sans-serif;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+	color: #fff;
+	margin-bottom: 10px;
+	padding: 10px;
+	background: #001c35 url(../images/bluestripe.png) repeat 50% 50%;
+	background-image: -webkit-gradient(linear,0 50%,100% 50%,color-stop(0%,#001c35),color-stop(100%,#002d56));
+	background-image: -webkit-linear-gradient(left,#001c35,#002d56);
+	background-image: -moz-linear-gradient(left,#001c35,#002d56);
+	background-image: -o-linear-gradient(left,#001c35,#002d56);
+	background-image: -ms-linear-gradient(left,#001c35,#002d56);
+	background-image: linear-gradient(left,#001c35,#002d56);
+	position: relative;
+	clear: left;
+}
+.section-h:after {
+	content: "\0020";
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	background: transparent url(../images/whitestripe-60.png) repeat 50% 50%;
+	opacity: .25;
+}
+.slides li {
+	width: 90%;
+}
+.story-overline {
+	font: 700 .9em Helvetica,Arial,sans-serif;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-bottom: 20px;
+	text-align: center;
+}
+.story-txt {
+	font: 300 .875em/155% Arial,Helvetica,sans-serif;
+	margin: 0;
+	color: #666;
+}
+table {
+	width: 100%;
+	margin: 0;
+	border-collapse: collapse;
+}
+td, th {
+	border-bottom: 1px solid #D1D1D1;
+}
+th {
+	text-align: left;
+}
+thead th, .elected {
+	text-align: center;
+}
+td, .alignRight  {
+	text-align: right;
+}
+.orange, .blue, .red, .green, .gray, .elected {
+	color: #fafafa;
+}
+.orange {
+	background-color: #DF6D27;
+}
+.blue {
+	background-color: #0B4573;
+}
+.red {
+	background-color: #E11C2E;
+}
+.green {
+	background-color: #2F954C;
+}
+.gray {
+	background-color: #3D3D3D;
+}
+.elected {
+	font-size: 1.4em;
+}
